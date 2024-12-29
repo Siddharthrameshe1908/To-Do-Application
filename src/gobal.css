@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.maintag{
+    display: flex;
+}
+
+.mainform{
+    border: 1px solid black;
+    width: 570px;
+    padding: 20px 35px 0px 35px;
+}
+
+.mainform h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.form{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+.form-group label{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+}
+
+.form-group input{
+    padding: 5px;
+}
+
+.form-group select{
+    padding: 5px;
+}
+
+.formbtn{
+    margin: 10px;
+    padding: 5px;
+}
+
+.displaylist{
+    border: 1px solid black;
+    width: 650px;
+}
+
+.notask{
+    border: 1px solid black;
+    height: 100vh;
+    width: 650px;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.displaylist h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.allitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    line-height: 30px;
+}
+
+.individualtask{
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.buttons{
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    padding: 10px;
+}
+
+.sidecategory{
+    border: 1px solid black;
+    padding: 20px;
+    width: 310px;
+}
+
+.sidecategory h1{
+    font-size: 30px;
+    color: rgb(85, 33, 228);
+}
+
+.selectcategory{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: large;
+}
+
+.categories label{
+    color: rgb(49, 103, 168);
+}
